@@ -11,4 +11,7 @@ $(document).ready(function () {
     $("p").css({ color: "black" });
     $(".intro").css({ color: "blueviolet" });
   });
+  $("#clickable").click(function () {
+    $("#clickable").toggleClass("border");
+  });
 });
