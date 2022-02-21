@@ -13,5 +13,6 @@ $(document).ready(function () {
   });
   $("#clickable").click(function () {
     $("#clickable").toggleClass("border");
+    $("#clickable").toggleClass("highlight");
   });
 });

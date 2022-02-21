@@ -58,3 +58,7 @@ p {
   border: 3px;
   padding: 1em;
 }
+
+.highlight {
+  background-color: yellow;
+}
